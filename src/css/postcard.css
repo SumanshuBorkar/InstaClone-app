@@ -1,0 +1,131 @@
+.post-card{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin-bottom: 3vh;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card-header {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    /* flex-direction: column; */
+    height: 5vh;
+  }
+  
+  .left-header {
+    width: 50%;
+    margin-left: 2%;
+  }
+   
+  .name-acc {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+  }
+  
+  .location-acc {
+    font-size: 0.9em;
+    color: #999;
+  }
+   
+  .right-header{
+    cursor: pointer;
+    color: #0a0a0a;
+    position: absolute;
+    right: 0px;
+    align-self: center;
+    margin-right: 5%;
+  }
+
+  .img-container{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to left bottom, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+    position: relative;
+    z-index: -100;
+  }
+
+  .post-image{
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .likes-lis{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+  }
+
+.send-item{
+  top: 2%;
+  left: 5%;
+}  
+  
+.heart-like{
+  top: 2%;
+  left: 1%;
+}  
+
+.post-info{
+    padding: 1vh;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: relative;
+  }
+
+.date-of-post{
+    position: absolute;
+    right: 5vw;
+}
+
+.comment-likkes{
+  position: absolute;
+  top: 35%;
+}
+
+@media (max-width: 414px) {
+  /* Styles for iPhone XR or devices with smaller screens */
+  .post-card{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-bottom: 3vh;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .card-header {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    /* flex-direction: column; */
+    height: 7vh;
+  }
+  .img-container{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to left bottom, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+    position: relative;
+    z-index: -100;
+  }
+
+  .post-image{
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,98 @@
+.box{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    background-color: black;
+}
+
+.navbar{
+  /* position: relative; */
+  position: fixed;
+  width: 100vw;
+  height: 8vh;
+  margin-top: 5px;
+  background-image: linear-gradient(to right, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+  box-shadow: rgba(0, 0, 0, 0.40) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.logo-ka-logo{
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 15vw;
+  height: 5vh;
+}
+
+.container-ka-container{
+  position: absolute;
+  width: 60vw;
+  height: auto;
+  left: 20%;
+  top: 12%;  
+}
+
+.nplopo{
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+.camera{
+    width: 30px;
+    height: 30px;    
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 414px) {
+  /* Styles for iPhone XR or devices with smaller screens */
+  .box {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    background-color: black;
+  }
+  
+  .navbar {
+    /* Adjust height or other styles as needed */
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    margin-top: 5px;
+    background-image: linear-gradient(to right, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  .logo-ka-logo {
+    /* Adjust positioning or other styles as needed */
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 75%;
+  }
+  
+  .container-ka-container {
+    /* Adjust positioning or other styles as needed */
+    width: 95vw;
+    margin: auto;
+    height: auto; 
+    left: 2%;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
